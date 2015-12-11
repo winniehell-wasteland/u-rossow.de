@@ -1,2 +1,4 @@
+baseurl: "/u-rossow.de"
+
 # Build settings
 markdown: kramdown
