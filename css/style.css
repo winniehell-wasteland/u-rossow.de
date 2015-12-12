@@ -35,7 +35,7 @@ table {
 
 #page {
     border-radius: 8px;
-    border: 2px solid rgba(255, 255, 255, 0.25);
+    border: 2px solid rgba(255, 255, 255, 0.75);
     position: absolute;
     left: 50%;
     top: 50%;
