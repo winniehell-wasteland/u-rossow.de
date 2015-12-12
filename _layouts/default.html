@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+    <style type="text/css">
+        #page {
+            background-image: url({{ site.baseurl }}/img/urossow-xl.jpg);
+        }
+    </style>
 </head>
 <body>
 
-<div id="background">
+<div id="page">
     <h1 class="xl">Dr. Uwe Rossow</h1>
-    <img class="xl" src="{{ site.baseurl }}/img/urossow-xl.jpg">
-</div>
 
-<div id="content" class="xl">
-
-    <div class="section">
-        {{ content }}
+    <div id="bottom">
+        <div id="content">
+            {{ content }}
+        </div>
     </div>
 </div>
+
 </body>
 </html>
