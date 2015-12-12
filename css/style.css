@@ -1,3 +1,13 @@
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 body, html {
     background-color: #606060;
     font-family: sans-serif;
