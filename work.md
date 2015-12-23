@@ -8,16 +8,15 @@ permalink: /work/
 **mainly involved in**  
 characterization and growth of semiconductor layers and nanostructures  
 optical response of surfaces
-{: style="float: left;"}
+{: style="line-height: 1.8rem;"}
 
 **specialized in optical characterization with**  
 polarization sensitive methods spectroscopic ellipsometry (SE)  
 reflectance difference spectroscopy (RDS, RAS)
-{: style="float: left;"}
+{: style="line-height: 1.8rem;"}
 
 **also worked with other classical surface spectroscopies such as**  
 photoemission (XPS)  
 Auger electron spectroscopy (AES)
-{: style="float: left;"}
+{: style="line-height: 1.8rem;"}
 
-<div style="clear: both;"></div>
