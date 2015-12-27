@@ -1,4 +1,6 @@
 baseurl: "/u-rossow.de"
+title: "Dr. Uwe Rossow"
 
 # Build settings
 markdown: kramdown
+
