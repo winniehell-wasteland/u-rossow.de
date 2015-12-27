@@ -55,6 +55,7 @@ table {
     border-radius: 8px;
     color: black;
     opacity: 0.75;
+    overflow: auto;
     padding: 0.5rem;
     position: absolute;
     bottom: 100px;
@@ -83,27 +84,53 @@ table {
 
 /* screen size dependent */
 
+
+/* default: @media (min-width:1024px) and (min-height:768px) */
 h1 {
-    font-size: 48px;
+    font-size: 32px;
 }
 
 #page {
-    height: 900px;
-    margin-top: -450px;
-    width: 1200px;
-    margin-left: -600px;
-    background-image: url({{ site.baseurl }}/img/urossow-xl.jpg);
+    height: 768px;
+    margin-top: -384px;
+    width: 1024px;
+    margin-left: -512px;
+    background-image: url({{ site.baseurl }}/img/urossow-l.jpg);
 }
 
 #bottom {
-    left: 100px;
-    height: 400px;
-    width: 1000px;
+    left: 50px;
+    height: 200px;
+    width: 92400px;
 }
 
 #content {
-    font-size: 24px;
-    max-height: 700px;
-    overflow: auto;
+    font-size: 18px;
+    max-height: 668px;
+}
+
+@media (min-width:1200px) and (min-height:900px) {
+	h1 {
+	    font-size: 48px;
+	}
+
+	#page {
+	    height: 900px;
+	    margin-top: -450px;
+	    width: 1200px;
+	    margin-left: -600px;
+	    background-image: url({{ site.baseurl }}/img/urossow-xl.jpg);
+	}
+
+	#bottom {
+	    left: 100px;
+	    height: 400px;
+	    width: 1000px;
+	}
+
+	#content {
+	    font-size: 24px;
+	    max-height: 700px;
+	}
 }
 
